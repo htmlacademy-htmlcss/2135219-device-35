@@ -6,8 +6,9 @@
   </head>
 <body>
   <header class="page-header">
+    <img class="background-header" src="images/background-main.png" width="1160" height="186" alt="желтый фон хедера">
     <a href='#'>
-      <img class="logo-page" src="" alt="Логотип интернет магазина Девайс">
+      <img class="logo-page" src="images/logo-header.svg" width='145' height='36' alt="Логотип интернет магазина Девайс">
     </a>
     <nav class="navigation">
       <ul class="navigation-list navigation-user">
@@ -32,24 +33,23 @@
     <ul class="navigation-list">
       <li class="navigation-item">
         <a class="catalog" href="#"><strong>Каталог товаров</strong></a>
-          <select class="catalog-list" aria-label="Каталог товаров">
-            <option value="virtual-reality">Виртуальная реальность</option>
-            <option value="selfie-monopods">Моноподы для селфи</option>
-            <option value="action-camera">Экшн-камеры</option>
-            <option value="fitness-bracelets">фитнес-браслеты</option>
-            <option value="smart-watches">Умные часы</option>
-            <option value="quadracopters">Квадракоптеры</option>
-          </select>
-        </a>
+            <ul class="catalog-list" aria-label="Каталог товаров">
+              <li value="virtual-reality">Виртуальная реальность</li>
+              <li value="selfie-monopods">Моноподы для селфи</li>
+              <li value="action-camera">Экшн-камеры</li>
+              <li value="fitness-bracelets">фитнес-браслеты</li>
+              <li value="smart-watches">Умные часы</li>
+              <li value="quadracopters">Квадракоптеры</li>
+            </ul>
           </li>
          <li class="navigation-item">
-            <a class="Delivery-navigation" href="#"><strong>Доставка</strong></a>
+            <a class="Delivery-navigation" href="#">Доставка</a>
          </li>
          <li class="navigation-item">
-            <a  class="warranty-navigation" href="#"><strong>Гарантия</strong></a>
+            <a  class="warranty-navigation" href="#">Гарантия</a>
           </li>
          <li class="navigation-item">
-            <a class="contacts-navigation" href="#"><strong>Контакты</strong></a>
+            <a class="contacts-navigation" href="#">Контакты</a>
           </li>
       </ul>
     </nav>
@@ -141,31 +141,35 @@
           <ul class="'product-list">
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img clas="product-card-img" src="#" alt="">
+                <img clas="product-card-img" src="images/product-2.jpg" width="360" height="380" alt="Картинка любительской селфи-палки">
+                  <div class="more-detailed">Подробнее</div>
                 <h3>Любительская селфи-палка</h3>
+                <b class="'product-card-price">500 ₽</b>
               </a>
-              <b class="'product-card-price">500 ₽</b>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img clas="product-card-img" src="#" alt="">
+                <img clas="product-card-img" src="images/product-2-1.jpg" width="360" height="380" alt="Картинка профессиональной селфи-палки">
+                  <div class="more-detailed">Подробнее</div>
                 <h3>Профессиональная селфи-палка</h3>
+                <b class="'product-card-price">1 500 ₽</b>
               </a>
-              <b class="'product-card-price">1 500 ₽</b>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img clas="product-card-img" src="#" alt="">
+                <img clas="product-card-img" src="images/product-2-2.jpg" width="360" height="380" alt="Картинка непотопляемой селфи-палки">
+                  <div class="more-detailed">Подробнее</div>
                 <h3>Непотопляемая селфи-палка</h3>
+                <b class="'product-card-price">2 500 ₽</b>
               </a>
-              <b class="'product-card-price">2 500 ₽</b>
             </li>
             <li class="product-card">
               <a class="product-card-link" href="product.html">
-                <img clas="product-card-img" src="#" alt="">
+                <img clas="product-card-img" src="images/product-2-3.jpg" width="360" height="380" alt="Картинка селфи палки Следуй за мной">
+                  <div class="more-detailed">Подробнее</div>
                 <h3>Селфи-палка "Следуй за мной"</h3>
+                <b class="'product-card-price">500 ₽</b>
               </a>
-              <b class="'product-card-price">500 ₽</b>
             </li>
           </ul>
           <button class="button pagination-show-more" type="button">Показать ещё</button>
@@ -198,7 +202,7 @@
     </section>
   </main>
   <footer class="page-footer">
-    <img class="logo-footer" src="" alt="Логотип интернет магазина Девайс">
+    <img class="logo-footer" src="images/logo-footer.svg" width="=145" height="36"  alt="Логотип интернет магазина Девайс">
     <address class="footer-contacts-address">
       <p class="about-text">Санкт-Петербург, набережная реки Карповки, 5, литера П.</p>
       <a class="footer-contacts-address-phone" href="tel:+78005558628">Тел.: +7 800 555-86-28</a>
@@ -217,17 +221,17 @@
       <ul class="footer-social-list">
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img class="telegram" src="" alt="Иконка Телеграм">
+            <img class="social-icons" src="images/telegram.svg" width="=40" height="40" alt="Иконка Телеграм">
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img class="instagram" src="" alt="Иконка Инстаграм">
+            <img class="social-icons" src="images/youtube.svg" width="=40" height="40" alt="Иконка youtube">
           </a>
         </li>
         <li class="footer-social-item">
           <a class="button" href="#">
-            <img class="twitter" src="" alt="Иконка Твиттер">
+            <img class="social-icons" src="images/twitter.svg" width="=40" height="40" alt="Иконка Твиттер">
           </a>
         </li>
       </ul>
