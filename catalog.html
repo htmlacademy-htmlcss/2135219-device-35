@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>HTML Academy: Девайс-Каталог</title>
+    <link rel="stylesheet" href="styles/styles.css">
   </head>
 <body>
   <header class="page-header">
@@ -10,28 +11,28 @@
       <img class="logo-page" src="images/logo-header.svg" width='145' height='36' alt="Логотип интернет магазина Девайс">
     </a>
     <nav class="navigation">
-      <ul class="navigation-list navigation-user">
+      <ul class="navigation-user">
         <li class="navigation-item">
           <input class="field" placeholder="поиск по сайту" type="search" name="search" id="search">
           <li class="navigation-item">
-             <a class="search" href="#">Найти</a>
+             <a class="navigation-link-user" href="#">Найти</a>
           </li>
           <li class="navigation-item">
-             <a class="log-in-account" href="#">Коля Петухов</a>
+             <a class="navigation-link-user" href="#">Коля Петухов</a>
           </li>
           <li class="navigation-item">
-            <a class="log-out-account" href="#">Выйти</a>
+            <a class="navigation-link-user" href="#">Выйти</a>
          </li>
           <li class="navigation-item">
-             <a class="Compare" href="#">Сравнить</a>
+             <a class="navigation-link-user" href="#">Сравнить</a>
           </li>
           <li class="navigation-item">
-             <a class="basket" href="#">Корзина</a>
+             <a class="navigation-link-user" href="#">Корзина</a>
           </li>
       </ul>
-    <ul class="navigation-list">
-      <li class="navigation-item">
-        <a class="catalog" href="#"><strong>Каталог товаров</strong></a>
+      <ul class="navigation-list">
+        <li class="navigation-item">
+          <a class="catalog" href="#"><strong>Каталог товаров</strong></a>
             <ul class="catalog-list" aria-label="Каталог товаров">
               <li value="virtual-reality">Виртуальная реальность</li>
               <li value="selfie-monopods">Моноподы для селфи</li>
@@ -40,17 +41,17 @@
               <li value="smart-watches">Умные часы</li>
               <li value="quadracopters">Квадракоптеры</li>
             </ul>
-          </li>
-         <li class="navigation-item">
-            <a class="Delivery-navigation" href="#">Доставка</a>
-         </li>
-         <li class="navigation-item">
-            <a  class="warranty-navigation" href="#">Гарантия</a>
-          </li>
-         <li class="navigation-item">
-            <a class="contacts-navigation" href="#">Контакты</a>
-          </li>
-      </ul>
+            </li>
+           <li class="navigation-list">
+              <a class="navigation-link-list" href="#">Доставка</a>
+           </li>
+           <li class="navigation-list">
+              <a  class="navigation-link-list" href="#">Гарантия</a>
+            </li>
+           <li class="navigation-list">
+              <a class="navigation-link-list" href="#">Контакты</a>
+            </li>
+        </ul>
     </nav>
   </header>
   <main class="main-inner">
