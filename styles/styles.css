@@ -25,6 +25,7 @@ body {
   line-height: 24px;
   color: #000000;
   background-color: #ffffff;
+  margin: 0;
 }
 
 .page-header {
@@ -42,7 +43,6 @@ body {
   text-decoration: none;
 }
 .navigation-link-list {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -56,24 +56,30 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 30px;
-  color: inherit;
 }
 .catalog {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
   text-transform: uppercase;
   text-decoration: none;
   letter-spacing: 0.2em;
-  color: inherit;
+  color: #000000;
 }
-body h2 {
-  font-family: 'Raleway', sans-serif;
+.header-quadrocopter {
   font-weight: 800;
   font-size: 50px;
   line-height: 50px;
-  color: inherit;
+}
+.header-selfie-stick{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+.header-bracelet{
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
 }
 .main-advantage {
   font-family: 'Rubik', sans-serif;
@@ -83,7 +89,6 @@ body h2 {
   color: #444444;
 }
 .more-detailed {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -108,15 +113,14 @@ body h2 {
   color: #000000;
 }
 .other-products {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 24px;
   letter-spacing: -0.02em;
   text-decoration: none;
+  color: #000000;
 }
 .tabs-item {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -134,7 +138,6 @@ body h2 {
 }
 
 .text-order-delivery{
-  font-family: 'Raleway', sans-serif;
   width: 910px;
   height: 20px;
   font-weight: 800;
@@ -169,7 +172,6 @@ body h2 {
 }
 
 .bout-us-link {
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -221,7 +223,6 @@ body h2 {
   color: #444444;
 }
 .contacts-write-to-us{
-  font-family: 'Raleway', sans-serif;
   font-weight: 800;
   font-size: 18px;
   line-height: 21px;
@@ -278,4 +279,102 @@ body h2 {
   text-decoration: none;
   text-transform: uppercase;
   color:#ffffff;
+}
+.inner-header-title {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 50px;
+  line-height: 50px;
+}
+.breadcrubc-item-link{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  color:#000000;
+}
+.menu-filter{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.catalog-filter-title{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  letter-spacing: -0.02em;
+}
+.control-input{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+}
+.button{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+}
+.product-card-link{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 20px;
+  text-decoration: none;
+  letter-spacing: -0.02em;
+  color:#000000;
+}
+.product-card-price{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  color:#444444;
+}
+.pagination-show-more{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 19px;
+}
+.pagination{
+  background-color: #EBEBEB;
+}
+.pagination-link{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  text-decoration: none;
+  opacity: 0.3;
+  color: #444444;
+}
+.pagination-current{
+  font-family: 'Rubik', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  opacity: 0.6;
+  color: #444444;
+}
+.pagination-next{
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color:#000000;
 }
